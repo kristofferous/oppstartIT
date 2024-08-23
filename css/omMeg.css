@@ -1,0 +1,55 @@
+li {
+  list-style: none;
+}
+.info {
+  position: absolute;
+  top: 5em;
+  text-align: center;
+}
+body {
+  height: 150vh;
+}
+.button-16 {
+  text-decoration: none;
+  background-color: #e35b20;
+  border: 1px solid #d94f13;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  height: 36px;
+  line-height: 27px;
+  min-width: 54px;
+  padding: 8px 16px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+}
+
+.button-16:hover {
+  border-color: #dadce0;
+  box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+  color: #202124;
+}
+
+.button-16:focus {
+  border-color: #e32020;
+  outline: none;
+}
+.btm {
+  position: absolute;
+  bottom: 0;
+}
+#btmTarget {
+  color: white;
+}
+#headerInteresser {
+  margin-top: 70px;
+}
+.interesser li {
+  list-style: circle;
+  margin: 20px 20px 20px 0;
+}
